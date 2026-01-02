@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    margin-top: 9px;
+    padding: 0;
+}
+body{
+    border: 1px solid blanchedalmond;
+}
+p{
+    font-weight: 10;
+    color: #6b7280;  
+}
+img:hover{
+    cursor: pointer;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+    transform: scale(1.1);
+    overflow: hidden;
+}
+img{
+     transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items:center ;
+    align-items: center;
+}
+.greatzone{
+    margin-left: 70px;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 70px;
+    margin-top: -10px;  
+}
+.mens{
+    display: flex;
+    justify-content: space-between;
+    margin-left:70px ;
+    margin-right: 70px;
+    margin-top: 30px;
+   font-size: 50px;
+}
+.idv{
+    /* for image curved border */
+    border-radius: 70px;
+    overflow: hidden;
+}
+.menadnestablished{
+    height: 30px;
+}
+/* long esatblished */
+.longestablished{
+    display: flex;
+    width: 966;
+    margin-left: 70px;
+    justify-content: space-between;
+    margin-right: 70px;
+    font-size: 30px;
+}
+.longestablished p{
+    font-weight: 10;
+    color: #6b7280;   /* light gray */
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.date .p{
+    margin: 0;
+}
+.longestablished img{
+    width: 543px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* for the 3 images of card */
+.images3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+.images3 img{
+    width: 349px;
+    
+
+}
+.images3 img:hover{
+    cursor: pointer;
+}
+.images3 p{
+     font-weight: 10;
+    color: #6b7280;  
+}
+.image1, .image2 ,.image3{
+   background-color: #FFFFFF;
+box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.longestablishedtext{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.image1 > div,
+.image3 > div {
+  border-radius: 14px;
+  overflow: hidden;   /* 🔥 SAME MAGIC */
+}
+/*  for macboook */
+.macbook{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+    gap: 100px;
+}
+.macbook .longestablishedtext{
+font-size: 40px;
+margin-top: 60px;
+margin-left: 30px;
+font-weight: 10;
+padding: 20px;
+  
+}
+button{
+  background-color: blueviolet;
+  display: inline;
+  color: white;
+  height: 70px;
+  width: 300px;
+  font-size: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 70px;
+}
+/*  final footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+     margin: 0 80px;
+     border-top: 2px solid black;
+}
+.footertext{
+    font-size: 30px;}
+.footicon{
+    display: flex;
+    gap: 40px;
+     font-size: 30px;
+}
